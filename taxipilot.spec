@@ -7,12 +7,11 @@ License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	907bac0be80f2f9428f3334ad7cf5c7a
+URL:		http://taxipilot.sourceforge.net/
 BuildRequires:	arts-kde-devel
 BuildRequires:	kdemultimedia-devel
-URL:		http://taxipilot.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix	/usr/X11R6
 %define		_htmldir	%{_docdir}/kde/HTML
 
 %description
@@ -42,20 +41,21 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+%find_lang %{name} --with-kde
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post -p   /sbin/ldconfig
-%postun -p /sbin/ldconfig
+%post	-p /sbin/ldconfig
+%postun	-p /sbin/ldconfig
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog TODO
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_libdir}/*.so.*.*
-%attr(755,root,root) %{_libdir}/*.la
+%{_libdir}/*.la
 %{_libdir}/mcop/*.mcop*
 %{_datadir}/apps/%{name}
 %{_applnkdir}/Games/%{name}.desktop
 %{_pixmapsdir}/*/*/apps/*.png
-%{_htmldir}/*/%{name}

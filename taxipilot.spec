@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	907bac0be80f2f9428f3334ad7cf5c7a
+# Source0-md5:	6e566a5028aa74195ff3cdbe948b9ee8
 BuildRequires:	arts-kde-devel
 BuildRequires:	kdemultimedia-devel
 URL:		http://taxipilot.sourceforge.net/
@@ -21,9 +21,9 @@ Objective is to pick up passengers waiting on a number of platforms
 and to drop them where they want to go.      
 
 %description -l pl
-TaxiPilot jest ma³± gr±, opart± na grze Spacetaxi napisanej dla C64. Celem
-jest zbieranie pasa¿erów czekaj±cych na licznych platformach
-i dostarczanie ich do miejsca gdzie ¿ycz± sobie byæ dowiezieni.
+TaxiPilot jest ma³± gr±, opart± na grze Spacetaxi napisanej dla C64.
+Celem jest zbieranie pasa¿erów czekaj±cych na licznych platformach i
+dostarczanie ich do miejsca gdzie ¿ycz± sobie byæ dowiezieni.
 
 %prep
 %setup -q

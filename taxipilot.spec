@@ -2,7 +2,7 @@ Summary:	Game based on Spacetaxi
 Summary(pl):	Gra oparta na Spacetaxi
 Name:		taxipilot
 Version:	0.8.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog TODO
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_libdir}/*.so.*.*
+%attr(755,root,root) %{_libdir}/*.la
 %{_libdir}/mcop/*.mcop*
 %{_datadir}/apps/%{name}
 %{_applnkdir}/Games/%{name}.desktop

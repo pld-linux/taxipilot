@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 TaxiPilot is a little game, based on Spacetaxi game for C64.
 Objective is to pick up passengers waiting on a number of platforms
-and to drop them where they want to go.      
+and to drop them where they want to go.
 
 %description -l pl
 TaxiPilot jest ma³± gr±, opart± na grze Spacetaxi napisanej dla C64.

@@ -5,8 +5,8 @@ Version:	0.8.5
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	6e566a5028aa74195ff3cdbe948b9ee8
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	907bac0be80f2f9428f3334ad7cf5c7a
 BuildRequires:	arts-kde-devel
 BuildRequires:	kdemultimedia-devel
 URL:		http://taxipilot.sourceforge.net/

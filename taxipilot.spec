@@ -1,5 +1,5 @@
 Summary:	Game based on Spacetaxi
-Summary(pl.UTF-8):   Gra oparta na Spacetaxi
+Summary(pl.UTF-8):	Gra oparta na Spacetaxi
 Name:		taxipilot
 Version:	0.9.01
 Release:	1

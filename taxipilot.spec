@@ -1,5 +1,5 @@
 Summary:	Game based on Spacetaxi
-Summary(pl):	Gra oparta na Spacetaxi
+Summary(pl.UTF-8):   Gra oparta na Spacetaxi
 Name:		taxipilot
 Version:	0.9.01
 Release:	1
@@ -19,10 +19,10 @@ TaxiPilot is a little game, based on Spacetaxi game for C64.
 Objective is to pick up passengers waiting on a number of platforms
 and to drop them where they want to go.
 
-%description -l pl
-TaxiPilot jest ma³± gr±, opart± na grze Spacetaxi napisanej dla C64.
-Celem jest zbieranie pasa¿erów czekaj±cych na licznych platformach i
-dostarczanie ich do miejsca gdzie ¿ycz± sobie byæ dowiezieni.
+%description -l pl.UTF-8
+TaxiPilot jest maÅ‚Ä… grÄ…, opartÄ… na grze Spacetaxi napisanej dla C64.
+Celem jest zbieranie pasaÅ¼erÃ³w czekajÄ…cych na licznych platformach i
+dostarczanie ich do miejsca gdzie Å¼yczÄ… sobie byÄ‡ dowiezieni.
 
 %prep
 %setup -q
